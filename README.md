@@ -13,7 +13,7 @@ OTA 방법 방법은 업데이트 파일,
 APK 파일을 다운로드 하여 USB 메모리 또는 서버에서 업데이트 가능합니다.
 
 ## 다양한 DS9100 Android 펌웨어 업데이트 방식  
-1. System Imahe Update : update.img, system.img, kerne.img ... *.img  
+1. System Imae Update : update.img, system.img, kerne.img ... *.img  
    가) Debug USB OTG, upgrade_tool 사용.
 
 2. System Image Update : OTA  
