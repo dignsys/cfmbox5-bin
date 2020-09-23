@@ -24,7 +24,10 @@ APK 파일을 다운로드 하여 USB 메모리 또는 서버에서 업데이트
    다)  We-Manager 에서 원격으로 업데이트  
 
 3. App Apk파일  
-   가) adb push app.apk /sdcard/Download/. && adb shell sync && adb shell pm install -r -g  /sdcard/Download/app.apk  
+   가) adb를 이용한 Apk 업데이트  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adb push app.apk /sdcard/Download/. && adb shell sync && adb shell pm install -r -g  /sdcard/Download/app.apk  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;또는  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;adb install -r -g app.apk  
    나) We-Manager 에서 원격으로 업데이트  
    다) 이동식 USB 저장 장치의 루트 디렉토리에 "ds9100_emergency-release.apk" 을 복사 하여  
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USB 포트에 결합 하면 즉시 APK 자동 설치 및 App 재시작  
