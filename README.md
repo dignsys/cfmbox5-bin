@@ -10,7 +10,9 @@ OTA 방법 방법은 업데이트 파일,
 그리고 CFMBOX5(DS9100) USB 포트에 물리면 잠시 후에 안내창이 나옵니다.
 
 ## Directory apk : Application Binary
-APK 파일을 다운로드 하여 USB 메모리 또는 서버에서 업데이트 가능합니다.
+APK 파일을 다운로드 하여 USB 메모리 또는 서버에서 업데이트 가능합니다.  
+
+> 신규로 이미지가 업데이트 될때마다 날짜변 branch가 다릅니다.
 
 ## 다양한 DS9100 Android 펌웨어 업데이트 방식  
 1. System Imae Update : update.img, system.img, kerne.img ... *.img  
